@@ -53,6 +53,17 @@ footer{padding:1.75rem 3rem;border-top:1px solid #e5e7eb;display:flex;justify-co
 .footer-logo span{color:#0d9488}
 footer p{font-size:12px;color:#aaa}
 @media(max-width:700px){nav{padding:1rem 1.5rem}.nav-links{gap:1rem}.page-hero{padding:4rem 1.5rem 3rem}.content{padding:3rem 1.5rem}.patron-card{flex-direction:column;align-items:center;text-align:center}.patron-divider{margin:0.75rem auto}.about-cards{grid-template-columns:1fr}footer{flex-direction:column;gap:8px;padding:1.5rem;text-align:center}}
+/* Founder */
+.founder-card{border:1px solid #e5e7eb;border-radius:4px;padding:2.25rem;background:#fff;display:flex;gap:2rem;align-items:flex-start}
+.founder-avatar{flex-shrink:0;width:72px;height:72px;border-radius:50%;background:#0d9488;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-size:22px;letter-spacing:0.04em}
+.founder-quals{font-size:11px;letter-spacing:0.14em;color:#0d9488;font-weight:600;margin-bottom:0.85rem}
+/* Approach */
+.approach-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:#ccfbf1;border:1px solid #ccfbf1;margin-top:2rem}
+.approach-card{background:#fff;padding:1.9rem 1.75rem}
+.approach-card i{font-size:20px;color:#0d9488;margin-bottom:0.75rem;display:block}
+.approach-card h4{font-size:13px;font-weight:600;margin-bottom:0.5rem;color:#111}
+.approach-card p{font-size:13px;color:#666;line-height:1.7}
+@media(max-width:700px){.founder-card{flex-direction:column;align-items:center;text-align:center}.founder-card .patron-divider{margin:0.75rem auto}.approach-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -60,10 +71,10 @@ footer p{font-size:12px;color:#aaa}
 <nav>
   <a href="index.html" class="logo">AJH <span>|</span> Holdings &amp; Acquisitions</a>
   <div class="nav-links">
+    <a href="about.html" class="active">About</a>
     <a href="residential.html">Residential</a>
     <a href="commercial.html">Commercial</a>
     <a href="affordable.html">Affordable Housing</a>
-    <a href="about.html" class="active">About</a>
     <a href="index.html#contact">Contact</a>
   </div>
 </nav>
@@ -135,6 +146,59 @@ footer p{font-size:12px;color:#aaa}
       <i class="ti ti-users"></i>
       <h4>Affordable Housing</h4>
       <p>Genuinely affordable homes for individuals and families — no compromise on safety or dignity.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- LEADERSHIP -->
+  <div class="section-label">Leadership</div>
+  <h2 class="section-title">Founder &amp; Managing Director</h2>
+  <p class="section-sub">Legal expertise and hands-on property experience, working together.</p>
+
+  <div class="founder-card">
+    <div class="patron-info">
+      <span class="patron-badge">Founder &amp; Managing Director</span>
+      <div class="patron-name">Mr M Awais Khan</div>
+      <div class="founder-quals">LLB &nbsp;·&nbsp; LPC &nbsp;·&nbsp; LLM</div>
+      <div class="patron-divider"></div>
+      <div class="patron-text">
+        <p>Awais Khan founded AJH Holdings &amp; Acquisitions with a simple conviction: that property, owned and managed well, can make a real difference to people&rsquo;s lives.</p>
+        <p>He brings a rare combination of legal expertise and hands-on property experience. A graduate in Law (LLB), with the Legal Practice Course (LPC) and a Master of Laws (LLM), he has worked in the legal field. That background gives him a thorough understanding of contracts, compliance, regulation and risk, and it shapes every decision the business makes.</p>
+        <p>Over more than eight years in real estate, Awais has owned, acquired and managed a growing portfolio of residential and commercial property. His experience spans strategic acquisition, HMO management, and leading the teams that renovate and transform each property. He has a sharp eye for buildings with untapped potential and a proven ability to turn them into well-run, successful assets.</p>
+        <p>That legal grounding means every acquisition is approached with care and diligence. Every tenancy is handled fairly and compliantly, and every property is managed to the standard residents deserve. The result is a portfolio built on solid foundations, one that performs well over the long term because it is looked after properly.</p>
+        <p>Under his leadership, AJH has grown on the principle that lasting success comes from doing things the right way: investing in quality, building trusted teams, and taking a long-term view of every property in our care.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- OUR APPROACH -->
+  <div class="section-label">Our approach</div>
+  <h2 class="section-title">Adding value where others see limits</h2>
+  <p class="section-sub">We believe every property has a better version of itself waiting to be realised. Our work begins long before a purchase is made, looking for homes that have been overlooked and spaces that could serve their residents and neighbourhoods far better than they do today.</p>
+
+  <div class="approach-grid">
+    <div class="approach-card">
+      <i class="ti ti-target-arrow"></i>
+      <h4>Strategic acquisition</h4>
+      <p>We acquire with care and patience. Each property is assessed for what it could become: its structure, its location, and the community around it. We would rather wait for the right opportunity than rush into the wrong one.</p>
+    </div>
+    <div class="approach-card">
+      <i class="ti ti-tools"></i>
+      <h4>Thoughtful renovation</h4>
+      <p>Our trusted team of trades, project managers and specialists brings each property up to a standard we are proud of: safe, compliant, well-designed and built to last. Good homes are built by good teams.</p>
+    </div>
+    <div class="approach-card">
+      <i class="ti ti-home-heart"></i>
+      <h4>HMO management done properly</h4>
+      <p>Shared living should never mean second-rate living. Fully licensed properties, responsive maintenance and genuine relationships with residents create stable, well-cared-for communities.</p>
+    </div>
+    <div class="approach-card">
+      <i class="ti ti-chart-line"></i>
+      <h4>Long-term portfolio stewardship</h4>
+      <p>We see ourselves as custodians. Careful decisions about improvement, management and investment keep our homes performing well for years to come, benefiting residents, neighbourhoods and the business alike.</p>
     </div>
   </div>
 
